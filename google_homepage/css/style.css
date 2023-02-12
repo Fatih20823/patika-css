@@ -1,0 +1,260 @@
+.header {
+  display: block;
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 48px;
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  float: right;
+  padding-left: 20px;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+  padding-left: 30px;
+}
+
+.q-headerli {
+  float: right;
+  padding: 5px;
+  padding-left: 25px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+  max-height: 190px;
+  position: relative;
+  padding: 20px;
+  display: block;
+  border: 20px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  border-radius: 24px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -140px;
+  width: 584px;
+  box-sizing: border-box;
+  padding-top: 0;
+}
+
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+  height: 44px;
+}
+
+.search-img span {
+  color: #5f6368;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+  width: 403px;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: auto;
+  cursor: text;
+  -webkit-rtl-ordering: logical;
+  writing-mode: horizontal-tb !important;
+  width: 403px;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  min-width: 54px;
+  transition-duration: 0.4s;
+}
+
+.feelinglucky {
+  margin: 11px 4px;
+  padding: 0 16px;
+  transition-duration: 0.4s;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: none;
+  height: 36px;
+  box-sizing: border-box;
+  text-rendering: auto;
+  display: inline-block;
+  user-select: none;
+  border-radius: 4px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  white-space: nowrap;
+}
+
+.footerli {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  marker-end: none;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  writing-mode: horizontal-tb !important;
+  text-align: center;
+  padding: 18px;
+}
+
+.panel {
+  display: block;
+  flex-direction: column;
+  height: 100%;
+}
+
+.body {
+  height: 100%;
+  background: #fff;
+  color: #222;
+  font-size: small;
+}
+
+.boyutlandirma img {
+  max-width: 32px;
+  height: 32px;
+}
+
+.ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.keyword-logo {
+  background: transparent;
+  width: 24px;
+  height: 44px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 5px;
+}
+
+.voice-logo img {
+  max-width: 24px;
+  height: 24px;
+}
